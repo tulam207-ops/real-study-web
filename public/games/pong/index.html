@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <title>Retro Pong</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="game-container">
+    <div class="top-bar">
+      <div class="mode-select">
+        <label>Mode:</label>
+        <select id="game-mode">
+          <option value="ai">1 Player (vs AI)</option>
+          <option value="pvp">2 Players (Local)</option>
+        </select>
+      </div>
+      <div class="scoreboard">
+        <span id="p1-score">0</span> : <span id="p2-score">0</span>
+      </div>
+      <button id="reset-btn" class="btn-sm">Restart</button>
+    </div>
+
+    <div class="canvas-wrapper">
+      <canvas id="pongCanvas" width="600" height="360"></canvas>
+      <div id="overlay" class="overlay hidden">
+        <h2 id="winner-text">Player 1 Wins!</h2>
+        <button id="play-again-btn" class="btn">Play Again</button>
+      </div>
+    </div>
+
+    <div class="controls-guide">
+      <div class="player-col">
+        <strong>Player 1 (Left)</strong>: W / S keys or Mouse / Touch
+      </div>
+      <div class="player-col">
+        <strong>Player 2 (Right)</strong>: Up / Down arrows (or AI)
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

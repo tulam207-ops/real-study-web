@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <title>Brick Breaker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="game-container">
+    <div class="header">
+      <div class="title">BRICK BREAKER</div>
+      <div class="stats">
+        <div class="stat-box">SCORE: <span id="score">0</span></div>
+        <div class="stat-box">LIVES: <span id="lives">3</span></div>
+      </div>
+    </div>
+    
+    <div class="canvas-wrapper">
+      <canvas id="breakoutCanvas" width="440" height="460"></canvas>
+      <div id="overlay" class="overlay hidden">
+        <h2 id="overlay-title">GAME OVER</h2>
+        <p id="overlay-msg">Score: <span id="final-score">0</span></p>
+        <button id="play-btn" class="btn">PLAY AGAIN</button>
+      </div>
+    </div>
+
+    <div class="hint">Controls: Mouse movement or Left / Right Arrow keys</div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+{
+  "name": "Unblocked Games",
+  "description": "A fast and clean unblocked games portal featuring classic, arcade, and puzzle games stored in a JSON catalog and played in responsive iframes.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

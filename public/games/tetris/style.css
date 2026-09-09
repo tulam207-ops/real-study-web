@@ -1,0 +1,181 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  user-select: none;
+}
+
+body {
+  background: #090e17;
+  color: #f8fafc;
+  font-family: 'Courier New', Courier, monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 12px;
+}
+
+.game-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  background: #131d2e;
+  padding: 14px;
+  border-radius: 12px;
+  border: 2px solid #23354f;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #a855f7;
+  letter-spacing: 1px;
+}
+
+.stats {
+  display: flex;
+  gap: 8px;
+}
+
+.stat-box {
+  background: #090e17;
+  padding: 4px 8px;
+  border-radius: 6px;
+  font-size: 12px;
+  border: 1px solid #23354f;
+}
+
+.board-area {
+  display: flex;
+  gap: 12px;
+}
+
+.canvas-wrapper {
+  position: relative;
+}
+
+#tetrisCanvas {
+  background: #030712;
+  border: 2px solid #3b82f6;
+  border-radius: 6px;
+  display: block;
+}
+
+.side-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 90px;
+}
+
+.next-box, .info-card {
+  background: #090e17;
+  border: 1px solid #23354f;
+  border-radius: 6px;
+  padding: 6px;
+  text-align: center;
+}
+
+.label {
+  font-size: 10px;
+  color: #94a3b8;
+  margin-bottom: 4px;
+}
+
+.val {
+  font-size: 18px;
+  font-weight: bold;
+  color: #facc15;
+}
+
+#nextCanvas {
+  background: transparent;
+  display: block;
+  margin: 0 auto;
+}
+
+.btn-sm {
+  background: #1f2937;
+  color: #e5e7eb;
+  border: 1px solid #374151;
+  border-radius: 6px;
+  padding: 6px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(3, 7, 18, 0.9);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  border-radius: 6px;
+}
+
+.overlay.hidden {
+  display: none;
+}
+
+.overlay h2 {
+  font-size: 24px;
+  color: #ef4444;
+}
+
+.btn {
+  background: #a855f7;
+  color: white;
+  border: none;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.mobile-controls {
+  display: flex;
+  gap: 6px;
+  width: 100%;
+  justify-content: center;
+  margin-top: 4px;
+}
+
+.m-btn {
+  background: #1e293b;
+  border: 1px solid #334155;
+  color: #f8fafc;
+  font-size: 16px;
+  width: 44px;
+  height: 40px;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.m-btn.drop {
+  width: auto;
+  padding: 0 12px;
+  font-size: 12px;
+  font-weight: bold;
+  background: #2563eb;
+}
+
+.m-btn:active {
+  background: #3b82f6;
+}

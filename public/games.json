@@ -1,0 +1,98 @@
+[
+  {
+    "id": "snake",
+    "title": "Retro Snake",
+    "category": "Arcade",
+    "badge": "Classic",
+    "description": "Maneuver the green serpent to eat apples, grow longer, and avoid running into the walls or yourself.",
+    "controls": "Arrow keys or WASD to move. Space to pause.",
+    "iframeUrl": "/games/snake/index.html",
+    "aspectRatio": "4:3",
+    "rating": "4.9",
+    "tags": ["Retro", "Canvas", "Classic"]
+  },
+  {
+    "id": "2048",
+    "title": "2048 Puzzle",
+    "category": "Puzzle",
+    "badge": "Popular",
+    "description": "Slide numbered tiles across the board and merge identical values until you achieve the coveted 2048 tile.",
+    "controls": "Arrow keys, WASD, or swipe to slide tiles.",
+    "iframeUrl": "/games/2048/index.html",
+    "aspectRatio": "1:1",
+    "rating": "4.8",
+    "tags": ["Numbers", "Logic", "Addictive"]
+  },
+  {
+    "id": "flappy",
+    "title": "Flappy Pixel",
+    "category": "Arcade",
+    "badge": "Hot",
+    "description": "Flap your wings to navigate through narrow pipe openings in this challenging retro arcade trial.",
+    "controls": "Spacebar, Up Arrow, or Click/Tap to flap.",
+    "iframeUrl": "/games/flappy/index.html",
+    "aspectRatio": "4:3",
+    "rating": "4.7",
+    "tags": ["Endless", "Arcade", "High Score"]
+  },
+  {
+    "id": "pong",
+    "title": "Retro Pong",
+    "category": "Retro",
+    "badge": "2-Player Ready",
+    "description": "The quintessential table tennis duel. Challenge the smart AI paddle or play against a friend locally.",
+    "controls": "W/S for Player 1, Up/Down for Player 2 (or against AI).",
+    "iframeUrl": "/games/pong/index.html",
+    "aspectRatio": "16:9",
+    "rating": "4.8",
+    "tags": ["Sports", "Paddles", "Competitive"]
+  },
+  {
+    "id": "breakout",
+    "title": "Brick Breaker",
+    "category": "Arcade",
+    "badge": "Action",
+    "description": "Launch the ball and bounce it with your paddle to demolish every brick in the wall without letting it drop.",
+    "controls": "Left / Right arrows, A/D, or mouse movement to control paddle.",
+    "iframeUrl": "/games/breakout/index.html",
+    "aspectRatio": "4:3",
+    "rating": "4.9",
+    "tags": ["Physics", "Blocks", "Action"]
+  },
+  {
+    "id": "tetris",
+    "title": "Tetra Blocks",
+    "category": "Puzzle",
+    "badge": "Legendary",
+    "description": "Strategically guide and rotate falling geometric tetromino blocks to clear horizontal rows and rack up points.",
+    "controls": "Left/Right to move, Up to rotate, Down for soft drop, Space for hard drop.",
+    "iframeUrl": "/games/tetris/index.html",
+    "aspectRatio": "4:3",
+    "rating": "5.0",
+    "tags": ["Falling Blocks", "Strategy", "Retro"]
+  },
+  {
+    "id": "dino",
+    "title": "Desert Dino Run",
+    "category": "Arcade",
+    "badge": "Speed",
+    "description": "Sprint endlessly through the arid desert, timing leaps over spiky cacti and ducking under swooping pterodactyls.",
+    "controls": "Space or Up Arrow to jump, Down Arrow to duck.",
+    "iframeUrl": "/games/dino/index.html",
+    "aspectRatio": "16:9",
+    "rating": "4.7",
+    "tags": ["Runner", "Pixel Art", "Casual"]
+  },
+  {
+    "id": "minesweeper",
+    "title": "Minesweeper",
+    "category": "Puzzle",
+    "badge": "Brain",
+    "description": "Uncover safe squares on the minefield using numerical clues while marking suspicious spots with warning flags.",
+    "controls": "Left click to reveal, Right click (or Hold / Flag toggle) to place flag.",
+    "iframeUrl": "/games/minesweeper/index.html",
+    "aspectRatio": "1:1",
+    "rating": "4.8",
+    "tags": ["Strategy", "Mines", "Logic"]
+  }
+]

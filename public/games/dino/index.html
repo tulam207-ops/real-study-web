@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <title>Desert Dino Run</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="game-container">
+    <div class="header">
+      <div class="title">DINO RUN</div>
+      <div class="stats">
+        <div class="stat-box">HI: <span id="hi-score">00000</span></div>
+        <div class="stat-box">SCORE: <span id="score">00000</span></div>
+      </div>
+    </div>
+    
+    <div class="canvas-wrapper">
+      <canvas id="dinoCanvas" width="600" height="200"></canvas>
+      <div id="overlay" class="overlay">
+        <h2 id="overlay-title">DINO RUN</h2>
+        <p id="overlay-msg">Press Space, Tap, or Click to Jump</p>
+        <button id="play-btn" class="btn">START SPRINT</button>
+      </div>
+    </div>
+
+    <div class="controls-hint">Space / Up Arrow to Jump | Down Arrow to Duck | Tap canvas</div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

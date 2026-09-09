@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <title>Minesweeper</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="game-container">
+    <div class="header">
+      <div class="counter-box" id="mine-count">010</div>
+      <button class="face-btn" id="face-btn">🙂</button>
+      <div class="counter-box" id="timer">000</div>
+    </div>
+    
+    <div class="board-wrapper">
+      <div id="grid" class="mine-grid"></div>
+    </div>
+
+    <div class="controls-bar">
+      <button id="flag-mode-btn" class="toggle-btn">Flag Mode: OFF</button>
+      <div class="hint">Left click: Reveal | Right click: Flag</div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

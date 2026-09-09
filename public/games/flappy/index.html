@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <title>Flappy Pixel</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="game-container">
+    <div class="header">
+      <div class="title">FLAPPY PIXEL</div>
+      <div class="stats">
+        <div class="stat-box">SCORE: <span id="score">0</span></div>
+        <div class="stat-box">BEST: <span id="best-score">0</span></div>
+      </div>
+    </div>
+    
+    <div class="canvas-wrapper">
+      <canvas id="gameCanvas" width="320" height="480"></canvas>
+      <div id="start-overlay" class="overlay">
+        <h2>FLAPPY PIXEL</h2>
+        <p>Press Space or Click to Flap</p>
+        <button id="start-btn" class="btn">FLAP TO START</button>
+      </div>
+      <div id="gameover-overlay" class="overlay hidden">
+        <h2>GAME OVER</h2>
+        <p>Final Score: <span id="final-score">0</span></p>
+        <button id="restart-btn" class="btn">TRY AGAIN</button>
+      </div>
+    </div>
+
+    <div class="hint">Controls: Click, Tap, or Spacebar</div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

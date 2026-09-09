@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <title>2048 Puzzle</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="game-container">
+    <div class="header">
+      <div class="brand">
+        <h1 class="logo">2048</h1>
+        <p class="subtitle">Join numbers to reach 2048!</p>
+      </div>
+      <div class="scores">
+        <div class="score-card">
+          <span class="label">SCORE</span>
+          <span id="score" class="value">0</span>
+        </div>
+        <div class="score-card">
+          <span class="label">BEST</span>
+          <span id="best" class="value">0</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="action-bar">
+      <button id="new-game-btn" class="btn">New Game</button>
+      <div class="hint">Use Arrows, WASD or Swipe</div>
+    </div>
+
+    <div class="board-wrapper">
+      <div id="grid" class="grid-container">
+        <!-- 16 Cells will be rendered here -->
+      </div>
+      <div id="game-over-overlay" class="overlay hidden">
+        <h2 id="overlay-status">Game Over!</h2>
+        <button id="retry-btn" class="btn-large">Try Again</button>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <title>Retro Snake</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="game-container">
+    <div class="header">
+      <div class="title">SNAKE</div>
+      <div class="stats">
+        <div class="stat-box">SCORE: <span id="score">0</span></div>
+        <div class="stat-box">HIGH: <span id="high-score">0</span></div>
+      </div>
+    </div>
+    
+    <div class="canvas-wrapper">
+      <canvas id="gameCanvas" width="400" height="400"></canvas>
+      <div id="overlay" class="overlay hidden">
+        <h2 id="overlay-title">GAME OVER</h2>
+        <p id="overlay-msg">Press Space or Start to Play Again</p>
+        <button id="restart-btn" class="btn">PLAY NOW</button>
+      </div>
+    </div>
+
+    <div class="controls-panel">
+      <div class="d-pad">
+        <button class="d-btn up" id="btn-up">▲</button>
+        <div class="d-row">
+          <button class="d-btn left" id="btn-left">◀</button>
+          <button class="d-btn down" id="btn-down">▼</button>
+          <button class="d-btn right" id="btn-right">▶</button>
+        </div>
+      </div>
+      <div class="info-text">Controls: Arrow keys / WASD / On-screen D-Pad</div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
